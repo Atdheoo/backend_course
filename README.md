@@ -1,2 +1,3 @@
 Django Backend Course
-# dexTer
+# dexTer.
+# dex
