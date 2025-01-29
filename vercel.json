@@ -3,7 +3,7 @@
         {
             "src": "backend/asgi.py",
             "use": "@vercel/python",
-            "config": { "maxLambdaSize": "15MB", "runtime": "python3" }
+            "config": { "maxLambdaSize": "15MB", "runtime": "python3.12" }
         },
         {
             "src": "build_files.sh",
