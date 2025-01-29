@@ -1,7 +1,4 @@
-#!/bin/bash
-
-python3.9 -m venv venv
-source venv/bin/activate
+echo "Build Start"
 pip install -r requirements.txt
-python manage.py collectstatic --noinput
-
+python manage.py collectstatic --noinput --clear
+echo "Build End"
