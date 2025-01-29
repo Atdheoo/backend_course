@@ -9,7 +9,6 @@ PyYAML==6.0.2
 sqlparse==0.5.3
 uritemplate==4.1.1
 
-# Add ASGI server (choose one)
-daphne==4.0.0  # Recommended for Django
+#daphne==4.0.0
 # OR
-# uvicorn==0.29.0  # Use if deploying Django with FastAPI-like ASGI behavior
+uvicorn==0.29.0
